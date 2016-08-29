@@ -101,8 +101,14 @@ class LinkedList(object):
         """
 
         # FIXME
+        current = self.head
+        index = 0
+        while current is not None: # while we have not passed the last node
+            if index == idx:     # if the current index is the index we are looking for
+                return current   # return current node
+            current = current.next # move to next node
+            index += 1
 
-        pass
 
 if __name__ == "__main__":
     import doctest
