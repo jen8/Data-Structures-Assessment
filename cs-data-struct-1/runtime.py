@@ -9,7 +9,7 @@ def string_compare(s1, s2):
     """
 
     if len(s1) != len(s2):     # checks one operation 0(1) 
-        return False
+        return False 
 
     for i in range(len(s1)):  # for loop (0)n
         if s1[i] != s2[i]:    # 0(1), there is no  in operator in if statement

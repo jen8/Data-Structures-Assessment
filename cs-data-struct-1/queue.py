@@ -1,7 +1,7 @@
 """FIFO queues implemented as a list.
 
 Warning: this is not the best way to implement a Queue."""
-
+ 
 
 class Queue(object):
     """FIFO queue."""

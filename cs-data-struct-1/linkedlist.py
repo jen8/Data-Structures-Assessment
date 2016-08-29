@@ -1,6 +1,6 @@
 # Linked list with Node/LinkedList classes
 
-
+ 
 class Node(object):
     """Node in a linked list."""
 

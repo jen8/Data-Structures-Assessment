@@ -19,7 +19,7 @@ class Node(object):
     def get_num_children(self):
         """Get number of children.
 
-        For example::
+        For example:: 
 
             >>> a = Node("A", [Node("B"), Node("C")])
             >>> a.get_num_children()

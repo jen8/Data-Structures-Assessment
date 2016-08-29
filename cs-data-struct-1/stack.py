@@ -24,7 +24,7 @@ class Stack(object):
     """
 
     def __init__(self):
-        self._list = []
+        self._list = [] 
 
     def __repr__(self):
         if not self._list:
